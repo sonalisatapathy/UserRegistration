@@ -1,0 +1,139 @@
+.mainContainer {
+  width: 50%;
+  margin: auto;
+  padding: 16px;
+  border-radius: 30px;
+  box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.17);
+  margin-top: 20px;
+  background-image: linear-gradient(92.5deg, rgba(173, 252, 234, 1));
+}
+.formContainer {
+  margin-left: 184px;
+}
+label {
+  display: inline-block;
+  width: 116px;
+}
+input {
+  width: 200px;
+  padding: 9px;
+  font-size: large;
+}
+
+.radiobtn {
+  display: inline-block;
+}
+input[type="radio"] {
+  width: 10px;
+}
+input[type="radio"] + label {
+  width: 50px;
+}
+input[type="checkbox"] {
+  width: 10px;
+  display: inline-block;
+  padding: 10px;
+}
+#checkboxContainer {
+  float: right;
+  clear: both;
+  margin-left: 119px;
+  margin-top: -19px;
+}
+
+.err {
+  color: red;
+  margin-left: 338px;
+}
+.phNum {
+  width: 100px;
+  margin-right: 10px;
+}
+.btnChange {
+  width: 30px;
+  margin-right: 10px;
+}
+.btnSubmit {
+  border-radius: 17px;
+  background-color: blueviolet;
+  width: 66%;
+  margin: 19px 0;
+  color: whitesmoke;
+  padding: 5px;
+  font-size: 20px;
+}
+@media only screen and (max-width: 600px) and (min-width: 495px) {
+  .mainContainer {
+    width: 100%;
+    margin: auto;
+    padding: 10x;
+    border: 2px solid rgb(18, 22, 219);
+    /* background-color: rgb(70, 191, 228); */
+    background-image: linear-gradient(
+      to right,
+      rgb(116, 197, 255),
+      rgba(116, 114, 255, 0.5)
+    );
+  }
+  .formContainer {
+    width: 50%;
+    margin: auto;
+  }
+
+  .err {
+    color: red;
+    /* margin-left: -5px; */
+  }
+  input {
+    width: 136px;
+    padding: 6px;
+    font-size: large;
+  }
+}
+@media only screen and (max-width: 1458px) {
+  .mainContainer {
+    width: 60%;
+    margin: auto;
+    padding: 10x;
+    /* background-image: linear-gradient(
+      to right,
+      rgb(234, 116, 255),
+      rgba(116, 114, 255, 0.5)
+    ); */
+  }
+  .formContainer {
+    width: 50%;
+    margin: auto;
+  }
+  .err {
+    color: red;
+    margin-left: 130px;
+  }
+  input {
+    padding: 9px;
+    font-size: large;
+  }
+}
+@media only screen and (max-width: 564px) and (min-width: 200px) {
+  .mainContainer {
+    width: 100vw;
+    margin: auto;
+    padding: 10x;
+    border: none;
+    background-color: none;
+  }
+  .formContainer {
+    width: 50%;
+    margin: auto;
+  }
+  input {
+    width: 161px;
+    padding: 13px;
+    font-size: large;
+  }
+}
+@media only screen and (max-width: 240px) {
+  .mainContainer {
+    display: none;
+  }
+}
